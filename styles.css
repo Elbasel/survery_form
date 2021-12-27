@@ -72,3 +72,63 @@ h1 {
 header, form {
     margin: auto;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+input {
+    background-color: var(--secondary);
+    color: var(--text);
+
+    border: 0;
+    border-radius: 24px;
+    height: 30px;
+    padding: 16px;
+}
+
+select {
+    background-color: var(--secondary);
+    color: var(--text);
+    border: 0;
+    border-radius: 24px;
+    padding: 16px;
+}
+
+.flex-row {
+    flex-direction: row;
+    
+    justify-content: flex-start; 
+}    
+
+.flex-row label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    background-color: var(--secondary);
+    color: var(--text)
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--text);
+    border: 0;
+    height: 40px;
+    border-radius: 24px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
