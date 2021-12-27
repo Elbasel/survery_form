@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,6 @@
 
 
 </head>
-
 <body>
 
     <header>
@@ -39,6 +39,7 @@
             <input id="number" name="number" type="number" placeholder="Number of leaves in your Grimoire" required=""
                 min="1" max="5">
         </div>
+
         <div>
             <select id="dropdown" name="teams">
                 <option value="golden-dawn">Golden Dawn</option>
@@ -47,26 +48,62 @@
                 <option value="blue-rose">Blue Rose</option>
             </select>
         </div>
+
         <div>
-            <p>What's your element?</p>
+            <p>What's your main element?</p>
+
             <label>
-                <input name="magic-element" value="fire" type="radio">
+                <input name="main-element" value="fire" type="radio">
                 Fire
             </label>
+
             <label>
-                <input name="magic-element" value="water" type="radio">
+                <input name="main-element" value="water" type="radio">
                 Water
             </label>
+
             <label>
-                <input name="magic-element" value="earth" type="radio">
+                <input name="main-element" value="earth" type="radio">
                 Earth
             </label>
+
             <label>
-                <input name="magic-element" value="Wind" type="radio">
+                <input name="main-element" value="Wind" type="radio">
+                Wind
+            </label>
+
+        </div>
+
+        <div>
+            <p>Select any secondary element:</p>
+
+            <label>
+                <input name="secondary-element" type="checkbox" value="fire">
+                Fire 
+            </label>
+            
+            <label>
+                <input name="secondary-element" type="checkbox" value="water">
+                Water
+            </label>
+
+            <label>
+                <input name="secondary-element" type="checkbox" value="earth">
+                Earth
+            </label>
+
+            <label>
+                <input name="secondary-element" type="checkbox" value="wind">
                 Wind
             </label>
         </div>
-    </form>
-</body>
 
+        <div>
+            <p>Do you have any experience using magic?</p>
+            <textarea id="experience" name="experience" placeholder="Tell us about your magic experience"></textarea>
+        </div>
+
+    </form>
+
+</body>
 </html>

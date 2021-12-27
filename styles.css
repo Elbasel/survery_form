@@ -31,3 +31,13 @@ img {
 
 
 
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header, form {
+    margin: auto;
+}
