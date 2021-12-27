@@ -33,10 +33,35 @@ img {
 
 
 body {
+
+    background-color: var(--primary);
+    color: var(--text);
+
     display: flex;
     flex-direction: column;
+    gap: 32px;
+
+    font-family: 'Anton', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'MedievalSharp', cursive;
+
+    padding: 16px;
 }
 
+header {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+    text-align: center;
+    flex-basis: 100%;
+    text-shadow: -4px 1px var(--blue);
+}
 
 header, form {
     margin: auto;
